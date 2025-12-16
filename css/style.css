@@ -10,6 +10,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 
+    padding-bottom: 40px; /* maior que a altura do footer */
 
 
     font-family: 'Poppins', sans-serif;
@@ -76,17 +77,22 @@ margin-bottom: 20px;
 
 
 footer {
-    padding-top: 25px;
+  width: 100%;
+  height: 30px;
+  background: repeating-linear-gradient(
+    90deg,
+    #ffd966,
+    #ffd966 20px,
+    #ffb6d5 20px,
+    #ffb6d5 40px
+  );
+}
+
+/* Apenas telas maiores */
+@media (min-width: 768px) {
+  footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 30px;
-    background: repeating-linear-gradient(
-        90deg,
-        #ffd966,
-        #ffd966 20px,
-        #ffb6d5 20px,
-        #ffb6d5 40px
-    );
+  }
 }
