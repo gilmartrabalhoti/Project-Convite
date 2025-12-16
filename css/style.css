@@ -10,7 +10,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 
-    padding-bottom: 40px; /* maior que a altura do footer */
+    
 
 
     font-family: 'Poppins', sans-serif;
@@ -64,7 +64,7 @@ margin-bottom: 20px;
 
 
 .clique {
-    padding: 38px 0px 20px 0px;
+    padding-bottom: 40px; /* maior que a altura do footer */
     font-family: 'Pacifico', cursive;
     font-size: 52px;
     color: #ff6f9c;
