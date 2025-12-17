@@ -1,14 +1,14 @@
-body{
-    color: #ff8fb1;
-    
-    font-family: 'Poppins', sans-serif;
-
-
-     background-image: url("../img/background.png");
+body{    
+    background-image: url("../img/background.png");
     background-size: cover;
     
     background-position: center;
     background-repeat: no-repeat;
+
+
+    color: #ff8fb1;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 nav{
     font-size: 30px;
@@ -60,21 +60,28 @@ footer {
 
 
 @media (max-width: 576px) { 
+    body{
+        background: radial-gradient(circle, #ffb6d5, #ff8fb1);
+        
+    }
     Img{
         width: 300px;
         height: 300px;
     }
-    footer{
-        position: fixed;
-    }
+
 }
-@media (max-width: 767.98px) { 
+@media (max-width: 800px) { 
+    body{
+        
+        text-align: center;
+    }
+    a{
+        padding-bottom: 90px;
+    }
     Img{
         width: 400px;
         height: 400px;
     }
-    footer{
-        position: fixed;
-    }
+   
 
 }
