@@ -46,16 +46,7 @@ a:hover{
 
 
 
-footer {
-  height: 30px;
-  background: repeating-linear-gradient(
-    90deg,
-    #ffd966,
-    #ffd966 20px,
-    #ffb6d5 20px,
-    #ffb6d5 40px
-  );
-}
+
 
 
 @media (max-width: 991.98px) { 
@@ -68,9 +59,7 @@ footer {
         width: 350px;
         height: 350px;
     }
-    footer{
-        visibility: hidden;
-    }
+
 }
 
 
@@ -86,7 +75,5 @@ footer {
         width: 200px;
         height: 200px;
     }
-    footer{
-        visibility: hidden;
-    }
+
 }
