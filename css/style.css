@@ -62,7 +62,7 @@ footer {
 @media (max-width: 576px) { 
     body{
         background: radial-gradient(circle, #ffb6d5, #ff8fb1);
-        
+        text-align: center;
     }
     Img{
         width: 300px;
