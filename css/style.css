@@ -1,9 +1,9 @@
 body{    
-    background-image: url("../img/background.png");
+    background-image: url("../img/8309414.jpg");
     background-size: cover;
     
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 
 
     color: #ff8fb1;
@@ -25,7 +25,7 @@ h3{
     font-size: 30px;
     padding-bottom: 10px;
 }
-Img{
+#baby-cristimas{
     border-radius: 50%;
     border: 10px solid #ff6f9c;
     padding: 0px;
@@ -34,6 +34,12 @@ Img{
     
 
 }
+#baby-minie{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
 a{
     font-family: 'Pacifico', cursive;
     font-size: 45px;
@@ -54,7 +60,7 @@ a:hover{
 
         text-align: center;
     }
-    Img{
+    #baby-cristimas{
         width: 350px;
         height: 350px;
     }
@@ -64,14 +70,10 @@ a:hover{
 
 
 @media (max-width: 767.98px) {
-    body{
-        text-align: center;
-        background: radial-gradient(circle, #ffb6d5, #ff8fb1);
-        text-align: center;
-    }
-    Img{
-        width: 200px;
-        height: 200px;
+
+    #baby-cristimas{
+        width: 290px;
+        height: 290px;
     }
 
 }
